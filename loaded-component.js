@@ -5,6 +5,7 @@ browser version of babel do all the work for us.
 function LoadedComponent() {
 	return (
 	  <div className="myDiv">
+		<h1>LoadedComponent</h1>
 		<h2>This is a heading in a div element</h2>
 		<p>This is some text in a div element.</p>
 	  </div>

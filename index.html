@@ -14,7 +14,8 @@
 </head>
 <body>
     <div id="app"></div>
-    <script type="text/babel" src="./loaded-component.js"></script>
+    <!-- <script type="text/babel" src="./loaded-component.js"></script> -->
+    <script type="text/babel" src="./my-grid.js"></script>
 	
     <script type="text/babel">
       function Application() {
@@ -25,7 +26,7 @@
           </div>
         )
       }
-	  ReactDOM.createRoot(document.getElementById('app')).render(<LoadedComponent />);
+	  ReactDOM.createRoot(document.getElementById('app')).render(<MyGrid />);
     </script>
     <script src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
     <!-- https://unpkg.com/react@18.2.0/umd/react.production.min.js -->
