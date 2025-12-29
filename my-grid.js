@@ -11,7 +11,7 @@ function MyGrid() {
   const [ loaded, setLoaded ] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("./ReactGridLayoutLibrary.js")
+    fetch("./ReactGridLayoutLibrary.v.2.1.1.js")
     .then(a => a.text())
     .then(a => {
         eval(a);
